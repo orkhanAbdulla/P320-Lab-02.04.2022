@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "58oCncEppZEYKBnVSHPwcEV9HrOowLyhx1iMgTS+pBQIcNgIeP7fPgZ0jPHtxZ1QKl9liis1xtFmKk2y5gI6sg==",
+  "dgSpecHash": "jKVLN72qytrcxh/wnq62TeVXwrkg7GLSYzcuZZA++QVkzmb4xtVUJNKF1ObIR5HynNzjUGLIlk9el9utGNLlCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\P320-Lab-02.04.2022\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

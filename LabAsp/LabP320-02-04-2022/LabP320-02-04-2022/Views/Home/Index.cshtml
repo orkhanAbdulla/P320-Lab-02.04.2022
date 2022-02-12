@@ -135,7 +135,7 @@
             <div class="productPrice">
                 @if (flower.CampaignId == null)
                 {
-                    <span class="addToCardBtn" data-id="1">Add to cart</span><span>$</span><span>@flower.Price</span>
+                <a asp-controller="Flower" asp-action="AddToCart" asp-route-id="@flower.Id"> <span class="addToCardBtn" data-id="1">Add to cart</span><span>$</span><span>@flower.Price</span></a>
                 }
                 else
                 {

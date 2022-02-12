@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj": {}
+    "C:\\Users\\hp\\Desktop\\P320-Lab-02.04.2022\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj": {
+    "C:\\Users\\hp\\Desktop\\P320-Lab-02.04.2022\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\P320-Lab-02.04.2022\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj",
         "projectName": "LabP320-02-04-2022",
-        "projectPath": "C:\\Users\\hp\\Desktop\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\P320-Lab-02.04.2022\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\LabP320-02-04-2022.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\P320-Lab-02.04.2022\\LabAsp\\LabP320-02-04-2022\\LabP320-02-04-2022\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

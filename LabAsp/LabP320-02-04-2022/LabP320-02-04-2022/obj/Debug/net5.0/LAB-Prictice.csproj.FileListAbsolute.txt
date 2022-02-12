@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.AssemblyInfo.cs
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.RazorAssemblyInfo.cache
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\LAB-Prictice.RazorAssemblyInfo.cs
