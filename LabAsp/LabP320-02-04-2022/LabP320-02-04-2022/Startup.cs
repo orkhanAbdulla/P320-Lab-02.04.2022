@@ -1,11 +1,14 @@
 using LabP320_02_04_2022.DataAccessLayer;
+using LabP320_02_04_2022.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,8 +33,26 @@ namespace LabP320_02_04_2022
             {
                 options.UseSqlServer(connectionString);
             });
+            JsonConvert.DefaultSettings = () => new JsonSerializerSettings
+            {
+                Formatting = Newtonsoft.Json.Formatting.Indented,
+                ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            };
+            services.AddMvc().AddNewtonsoftJson(x=>x.SerializerSettings.ReferenceLoopHandling=Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
-            services.AddMvc();
+            services.AddIdentity<AppUser, IdentityRole>(option=> {
+
+                option.SignIn.RequireConfirmedEmail = true;
+                option.Password.RequireDigit = true;
+                option.Password.RequiredLength = 8;
+                option.Password.RequireNonAlphanumeric = false;
+                option.Password.RequireLowercase = false;
+                option.Password.RequireUppercase = false;
+                option.Lockout.MaxFailedAccessAttempts = 3;
+                option.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                option.Lockout.AllowedForNewUsers = true;
+                
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
         }
 
@@ -44,6 +65,7 @@ namespace LabP320_02_04_2022
 
             app.UseRouting();
             app.UseStaticFiles();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

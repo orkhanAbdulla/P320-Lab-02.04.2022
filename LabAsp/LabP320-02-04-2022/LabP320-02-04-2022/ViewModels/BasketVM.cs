@@ -7,10 +7,8 @@ namespace LabP320_02_04_2022.ViewModels
 {
     public class BasketVM
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public double Price { get; set; }
-        public int Count { get; set; } = 1;
+        public IList<BasketItemVM> BasketItems { get; set; }
+        public double TotalPrice { get; set; }
+        public int Count { get; set; }
     }
 }

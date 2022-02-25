@@ -290,3 +290,11 @@ C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-
 C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Areas\Manage\Views\Flower\Index.cshtml.g.cs
 C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Areas\Manage\Views\Category\Create.cshtml.g.cs
 C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Areas\Manage\Views\Category\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Views\Flower\Basket.cshtml.g.cs
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\hp\Desktop\P320-Lab-02.04.2022\LabAsp\LabP320-02-04-2022\LabP320-02-04-2022\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs

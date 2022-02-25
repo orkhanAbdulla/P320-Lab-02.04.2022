@@ -1,7 +1,9 @@
 ﻿using LabP320_02_04_2022.DataAccessLayer;
+using LabP320_02_04_2022.Models;
 using LabP320_02_04_2022.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,5 +29,6 @@ namespace LabP320_02_04_2022.Controllers
             };
             return View(homeWM);
         }
+      
     }
 }
