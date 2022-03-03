@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,11 +27,15 @@ namespace LabP320_02_04_2022.Models
         public string Dimension { get; set; }
 
         public List<FlowerImage> FlowersImages { get; set; }
+        [NotMapped]
+        public List<IFormFile> FormFiles { get; set; }
 
         public List<FlowerCategory> FlowerCategories { get; set; }
 
         public int? CampaignId { get; set; }
 
         public Campaign Campaign { get; set; }
+        [NotMapped]
+        public List<int> CategoryIds { get; set; }
     }
 }

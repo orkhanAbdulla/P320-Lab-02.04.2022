@@ -1,5 +1,10 @@
+using LabP320_02_04_2022.Data;
+using LabP320_02_04_2022.DataAccessLayer;
+using LabP320_02_04_2022.Models;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -15,6 +20,7 @@ namespace LabP320_02_04_2022
         {
             CreateHostBuilder(args).Build().Run();
         }
+
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
